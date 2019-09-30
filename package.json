@@ -1,0 +1,45 @@
+{
+  "name": "cashmere-css-example",
+  "version": "1.0.0",
+  "description": "Example project on how to use the css of https://cashmere.healthcatalyst.net",
+  "main": "index.js",
+  "dependencies": {
+    "@angular/cdk": "^8.2.1",
+    "@healthcatalyst/cashmere": "^6.0.0",
+    "font-awesome": "^4.7.0",
+    "npm-font-open-sans": "^1.1.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.8.1",
+    "webpack-md5-hash": "^0.0.6"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjanderson/cashmere-css-example.git"
+  },
+  "author": "Ben Anderson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjanderson/cashmere-css-example/issues"
+  },
+  "homepage": "https://github.com/benjanderson/cashmere-css-example#readme"
+}

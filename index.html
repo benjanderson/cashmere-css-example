@@ -1,0 +1,73 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+  </head>
+
+  <body>
+    <nav class="hc-navbar fixed-top">
+      <div class="navbar-brand">
+        <a class="brand" href="#"><img src="./assets/TriFlame.svg"/></a>
+      </div>
+      <div class="navbar-app">
+        <a class="app" href="#"><img src="./assets/CashmereAppLogo.svg"/></a>
+      </div>
+      <div class="hc-navbar-link-container">
+        <hc-navbar-link
+          ><a class="navbar-link ng-star-inserted" title="Home" href="#">
+            Home</a
+          ></hc-navbar-link
+        ><hc-navbar-link
+          ><a class="navbar-link ng-star-inserted" title="Styles" href="#">
+            Styles</a
+          ></hc-navbar-link
+        ><hc-navbar-link
+          ><a
+            class="navbar-link ng-star-inserted active"
+            title="Components"
+            href="#"
+          >
+            Components</a
+          ></hc-navbar-link
+        ><hc-navbar-link
+          ><a class="navbar-link ng-star-inserted" title="Guides" href="#">
+            Guides</a
+          ></hc-navbar-link
+        >
+      </div>
+    </nav>
+
+    <div id="container">
+      <table class="hc-table">
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>MRN</th>
+            <th>Birth Date</th>
+            <th>Payor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Samuel</td>
+            <td>Walker</td>
+            <td>Z1223334444</td>
+            <td>Mar 27, 1978</td>
+            <td>MetLife</td>
+          </tr>
+          <tr>
+            <td>Whitney</td>
+            <td>Allen</td>
+            <td>Z5223335555</td>
+            <td>Jan 14, 1954</td>
+            <td>New York Life</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
